@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import Button from "./components/buttonComponent";
-import Input from "./components/resultComponent";
+import Result from "./components/resultComponent";
 import ClearButton from "./components/handleClear";
 
 class App extends Component {
@@ -25,7 +25,6 @@ class App extends Component {
       this.setState({ result: this.state.result + val });
     }
   };
-
 
   clear = () => {
     this.setState({ result: "" });
@@ -90,7 +89,7 @@ class App extends Component {
       <div className="App">
         <div className="calculator-body">
           <div className="row">
-            <Input>{this.state.result}</Input>
+            <Result>{this.state.result}</Result>
           </div>
           <br />
           <div className="row">
