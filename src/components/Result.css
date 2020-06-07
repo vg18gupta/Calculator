@@ -1,0 +1,13 @@
+.result {
+    display: flex;
+    height: 4em;
+    flex: 1;
+    background-color: white;
+    outline: 2px solid black;
+    color: black;
+    justify-content: flex-end;
+    padding: 0.5em;
+    font-weight: bold;
+    font-size: 1.4em;
+    align-items: center;
+  }
